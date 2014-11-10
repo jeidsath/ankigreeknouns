@@ -349,7 +349,7 @@ def output_word_defs(word):
         ss = clean_form(form) + '; '
         for article in articles:
             ss += article + ' ' + form + '<br>'
-        ss += '<br><i>' + dict_form + '</i>'
+        ss += '<br>' + dict_form
         print ss.encode('utf-8')
 
 
