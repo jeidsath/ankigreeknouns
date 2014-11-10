@@ -9,28 +9,73 @@ import re
 WIKTIONARY = 'http://en.wiktionary.org/wiki/'
 FIRST_DECL = (['ἡ χώρα', 'ἡ νίκη', 'ἡ φυγή', 'ἡ μοῖρα', 'ἡ γλῶττα',
                'ἡ θάλαττα'] +
-              ['ὁ νεανίας', 'ὁ πολίτης', 'ὁ κριτής', 'Ἀτρείδης'] +
+              ['ὁ νεανίας', 'ὁ πολίτης', 'ὁ κριτής', 'ὁ Ἀτρείδης'] +
               ['ἡ μνᾶ', 'ἡ συκῆ', 'ὁ Βορρᾶς', 'ὁ Ἑρμῆς'])
 SECOND_DECL = (['ὁ ἵππος', 'ὁ ἄνθρωπος', 'ἡ ὁδός', 'τὸ δῶρον'] +
                ['ὁ νοῦς', 'ὁ περίπλους', 'τὸ ὀστοῦν'] +
                ['ὁ νεώς'])
-THIRD_DECL = (['ὁ Αἰθίοψ', 'ἡ φλέψ', 'ὁ φύλαξ', 'ἡ φάλαγξ', 'ὁ ἡ αἴξ',
+THIRD_DECL = (['ὁ Αἰθίοψ', 'ἡ φλέψ', 'ὁ φύλαξ', 'ἡ φάλαγξ', 'ὁ/ἡ αἴξ',
                'ἡ θρίξ'] +
-              ['ὁ θής', 'ἡ ἐλπίς', 'ἡ χάρις', 'ὁ ἡ ὄρνις', 'ὁ Γίγας',
+              ['ὁ θής', 'ἡ ἐλπίς', 'ἡ χάρις', 'ὁ/ἡ ὄρνις', 'ὁ Γίγας',
                'ὁ γέρων'] +
               ['τὸ σῶμα', 'τὸ ἧπαρ', 'τὸ τέρας', 'τὸ κέρας'] +
-              ['ὁ θήρ', 'ὁ ῥήτωρ', 'ἡ ῥίς', 'ἡγεμών', 'ἀγών', 'ποιμήν'] +
+              ['ὁ θήρ', 'ὁ ῥήτωρ', 'ἡ ῥίς', 'ὁ ἡγεμών', 'ὁ ἀγών', 'ὁ ποιμήν'] +
               ['ὁ πατήρ', 'ἡ μήτηρ', 'ἡ θυγάτηρ', 'ὁ ἀνήρ'] +
               ['ὁ Σωκράτης', 'ὁ Δημοσθένης', 'ἡ τριήρης', 'τὸ γένος',
                'τὸ γέρας'] +
-              ['τὸ δέος', 'Περικλῆς'] +
+              ['τὸ δέος', 'ὁ Περικλῆς'] +
               ['ἡ αἰδώς'] +
-              ['ἥρως'] +
+              ['ὁ ἥρως'] +
               ['ἡ πόλις', 'ὁ πῆχυς', 'τὸ ἄστυ', 'ὁ/ἡ σῦς', 'ὁ ἰχθύς'] +
-              ['οἶς'] +
+              ['ὁ/ἡ οἶς'] +
               ['ὁ βασιλεύς', 'ἡ γραῦς', 'ἡ ναῦς', 'ὁ/ἡ βοῦς'] +
               ['ἡ πειθώ'])
 WORDS = FIRST_DECL + SECOND_DECL + THIRD_DECL
+ARTICLE_MAP = {'m': {'Singular': {'Nominative': u'ὁ',
+                                  'Genitive': u'τοῦ',
+                                  'Dative': u'τῷ',
+                                  'Accusative': u'τὸν',
+                                  'Vocative': u'ῶ'},
+                     'Dual':     {'Nominative': u'τὼ',
+                                  'Genitive': u'τοῖν',
+                                  'Dative': u'τοῖν',
+                                  'Accusative': u'τὼ',
+                                  'Vocative': u'τὼ'},
+                     'Plural':   {'Nominative': u'οἱ',
+                                  'Genitive': u'τῶν',
+                                  'Dative': u'τοῖς',
+                                  'Accusative': u'τοὺς',
+                                  'Vocative': u'τὼ'}, },
+               'f': {'Singular': {'Nominative': u'ἡ',
+                                  'Genitive': u'τῆς',
+                                  'Dative': u'τῷ',
+                                  'Accusative': u'τὴν',
+                                  'Vocative': u'ῶ'},
+                     'Dual':     {'Nominative': u'τὼ',
+                                  'Genitive': u'τοῖν',
+                                  'Dative': u'τοῖν',
+                                  'Accusative': u'τὼ',
+                                  'Vocative': u'τὼ'},
+                     'Plural':   {'Nominative': u'αἱ',
+                                  'Genitive': u'τῶν',
+                                  'Dative': u'ταῖς',
+                                  'Accusative': u'τὰς',
+                                  'Vocative': u'αἱ'}, },
+               'n': {'Singular': {'Nominative': u'τὸ',
+                                  'Genitive': u'τοῦ',
+                                  'Dative': u'τῷ',
+                                  'Accusative': u'τὸ',
+                                  'Vocative': u'ῶ'},
+                     'Dual':     {'Nominative': u'τὼ',
+                                  'Genitive': u'τοῖν',
+                                  'Dative': u'τοῖν',
+                                  'Accusative': u'τὼ',
+                                  'Vocative': u'τὼ'},
+                     'Plural':   {'Nominative': u'τὰ',
+                                  'Genitive': u'τῶν',
+                                  'Dative': u'τοῖς',
+                                  'Accusative': u'τὰ',
+                                  'Vocative': u'τὼ'}, }}
 
 
 def main():
@@ -298,11 +343,35 @@ def output_word_defs(word):
             defs[clean_form(form)].append([case, decl])
 
     for form in defs.keys():
-        answer = ''
+        articles = set()
         for case, decl in defs[form]:
-            answer += '<br>' + case + ' ' + decl
-        ss = clean_form(form) + '; ' + dict_form + answer
+            articles.add(article_for_word(word, case, decl))
+        ss = clean_form(form) + '; ' + dict_form
+        for article in articles:
+            ss += '<br>' + article + ' ' + form
         print ss.encode('utf-8')
+
+
+def article_for_word(word, case, decl):
+    word_article = unicode(word.split(' ')[0], 'utf-8')
+    if word_article == u'ὁ':
+        gender = 'm'
+    elif word_article == u'ἡ':
+        gender = 'f'
+    elif word_article == u'τὸ':
+        gender = 'n'
+    elif word_article == u'ὁ/ἡ':
+        gender = 'm/f'
+    else:
+        print word
+        raise Exception('Could not find article')
+
+    if gender == 'm/f':
+        first = ARTICLE_MAP['m'][case][decl]
+        second = ARTICLE_MAP['f'][case][decl]
+        return first + '/' + second
+
+    return ARTICLE_MAP[gender][case][decl]
 
 
 def clean_form(form):
