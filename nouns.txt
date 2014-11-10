@@ -588,7 +588,7 @@
 βᾰσῐλεῖ; ὁ βασιλεύς<br>Singular Dative
 βᾰσῐλέων; ὁ βασιλεύς<br>Plural Genitive
 γραῦς; ἡ γραῦς<br>Singular Nominative<br>Plural Accusative
-γρᾱίˉ; ἡ γραῦς<br>Singular Dative
+γρᾱῑ́; ἡ γραῦς<br>Singular Dative
 γραυσί(ν); ἡ γραῦς<br>Plural Dative
 γρᾱοῖν; ἡ γραῦς<br>Dual Genitive<br>Dual Dative
 γραῦ; ἡ γραῦς<br>Singular Vocative
