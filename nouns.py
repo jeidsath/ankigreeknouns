@@ -338,19 +338,33 @@ def output_word_defs(word):
         if not SHELF[word].get(case):
             continue
         for decl, form in SHELF[word][case].iteritems():
-            if not defs.get(form):
-                defs[clean_form(form)] = []
-            defs[clean_form(form)].append([case, decl])
+            for ff in min_form(clean_form(form)):
+                if not defs.get(ff):
+                    defs[ff] = []
+                defs[ff].append([case, decl])
 
     for form in defs.keys():
         articles = set()
         for case, decl in defs[form]:
             articles.add(article_for_word(word, case, decl))
-        ss = clean_form(form) + '; '
+        ss = form + '; '
         for article in articles:
             ss += article + ' ' + form + '<br>'
         ss += '<br>' + dict_form
         print ss.encode('utf-8')
+
+
+def min_form(form):
+    forms = form.split(' ')
+    forms = filter(lambda xx: xx != '/', forms)
+    forms = filter(lambda xx: xx != '(late)', forms)
+    return map(remove_parens, forms)
+
+
+def remove_parens(word):
+    if word[0] == '(' and word[-1] == ')':
+        return word[1:-1]
+    return word
 
 
 def article_for_word(word, case, decl):
