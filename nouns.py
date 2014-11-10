@@ -358,7 +358,19 @@ def min_form(form):
     forms = form.split(' ')
     forms = filter(lambda xx: xx != '/', forms)
     forms = filter(lambda xx: xx != '(late)', forms)
-    return map(remove_parens, forms)
+    forms = map(remove_parens, forms)
+
+    output = []
+    for form in forms:
+        output += replace_movable_n(form)
+
+    return output
+
+
+def replace_movable_n(form):
+    if len(form) > 3 and form[-3] == u'(' and form[-2] == u'ν' and form[-1] == u')':
+        return [form[0:-3], form[0:-3] + u'ν']
+    return [form]
 
 
 def remove_parens(word):
