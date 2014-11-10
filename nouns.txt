@@ -1,0 +1,622 @@
+χωρῶν; ἡ χώρα<br>Plural Genitive
+χώρᾱς; ἡ χώρα<br>Singular Genitive<br>Plural Accusative
+χώρᾱ; ἡ χώρα<br>Singular Nominative<br>Singular Vocative<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+χῶραι; ἡ χώρα<br>Plural Nominative<br>Plural Vocative
+χώραις; ἡ χώρα<br>Plural Dative
+χώρᾳ; ἡ χώρα<br>Singular Dative
+χώραιν; ἡ χώρα<br>Dual Genitive<br>Dual Dative
+χώρᾱν; ἡ χώρα<br>Singular Accusative
+νίκαις; ἡ νίκη<br>Plural Dative
+νίκᾱ; ἡ νίκη<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+νίκης; ἡ νίκη<br>Singular Genitive
+νίκη; ἡ νίκη<br>Singular Nominative<br>Singular Vocative
+νῑκῶν; ἡ νίκη<br>Plural Genitive
+νίκῃ; ἡ νίκη<br>Singular Dative
+νίκᾱς; ἡ νίκη<br>Plural Accusative
+νῖκαι; ἡ νίκη<br>Plural Nominative<br>Plural Vocative
+νίκην; ἡ νίκη<br>Singular Accusative
+νίκαιν; ἡ νίκη<br>Dual Genitive<br>Dual Dative
+φῠγαῖς; ἡ φυγή<br>Plural Dative
+φῠγή; ἡ φυγή<br>Singular Nominative<br>Singular Vocative
+φῠγά; ἡ φυγή<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+φῠγῇ; ἡ φυγή<br>Singular Dative
+φῠγάς; ἡ φυγή<br>Plural Accusative
+φῠγαί; ἡ φυγή<br>Plural Nominative<br>Plural Vocative
+φῠγῶν; ἡ φυγή<br>Plural Genitive
+φῠγήν; ἡ φυγή<br>Singular Accusative
+φῠγῆς; ἡ φυγή<br>Singular Genitive
+φῠγαῖν; ἡ φυγή<br>Dual Genitive<br>Dual Dative
+μοίραιν; ἡ μοῖρα<br>Dual Genitive<br>Dual Dative
+μοῖραι; ἡ μοῖρα<br>Plural Nominative<br>Plural Vocative
+μοῖρᾰν; ἡ μοῖρα<br>Singular Accusative
+μοίρᾱς; ἡ μοῖρα<br>Singular Genitive<br>Plural Accusative
+μοίρᾱ; ἡ μοῖρα<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+μοίρᾳ; ἡ μοῖρα<br>Singular Dative
+μοῖρᾰ; ἡ μοῖρα<br>Singular Nominative<br>Singular Vocative
+μοιρῶν; ἡ μοῖρα<br>Plural Genitive
+μοίραις; ἡ μοῖρα<br>Plural Dative
+γλώτταιν; ἡ γλῶττα<br>Dual Genitive<br>Dual Dative
+γλώτταις; ἡ γλῶττα<br>Plural Dative
+γλώττᾱς; ἡ γλῶττα<br>Plural Accusative
+γλώττᾱ; ἡ γλῶττα<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+γλώττης; ἡ γλῶττα<br>Singular Genitive
+γλῶττᾰν; ἡ γλῶττα<br>Singular Accusative
+γλώττῃ; ἡ γλῶττα<br>Singular Dative
+γλωττῶν; ἡ γλῶττα<br>Plural Genitive
+γλῶττᾰ; ἡ γλῶττα<br>Singular Nominative<br>Singular Vocative
+γλῶτται; ἡ γλῶττα<br>Plural Nominative<br>Plural Vocative
+θᾰλάττᾱς; ἡ θάλαττα<br>Plural Accusative
+θᾰλαττῶν; ἡ θάλαττα<br>Plural Genitive
+θάλαττᾰν; ἡ θάλαττα<br>Singular Accusative
+θᾰλάτταις; ἡ θάλαττα<br>Plural Dative
+θάλατται; ἡ θάλαττα<br>Plural Nominative<br>Plural Vocative
+θᾰλάτταιν; ἡ θάλαττα<br>Dual Genitive<br>Dual Dative
+θᾰλάττης; ἡ θάλαττα<br>Singular Genitive
+θάλαττᾰ; ἡ θάλαττα<br>Singular Nominative<br>Singular Vocative
+θᾰλάττᾱ; ἡ θάλαττα<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+θᾰλάττῃ; ἡ θάλαττα<br>Singular Dative
+νεᾱνίᾳ; ὁ νεανίας<br>Singular Dative
+νεᾱνίᾱ; ὁ νεανίας<br>Singular Vocative<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+νεᾱνίᾱς; ὁ νεανίας<br>Singular Nominative<br>Plural Accusative
+νεᾱνίαιν; ὁ νεανίας<br>Dual Genitive<br>Dual Dative
+νεᾱνίαι; ὁ νεανίας<br>Plural Nominative<br>Plural Vocative
+νεᾱνιῶν; ὁ νεανίας<br>Plural Genitive
+νεᾱνίᾱν; ὁ νεανίας<br>Singular Accusative
+νεᾱνίου; ὁ νεανίας<br>Singular Genitive
+νεᾱνίοις; ὁ νεανίας<br>Plural Dative
+πολῑ́τᾱ; ὁ πολίτης<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+πολῑ́της; ὁ πολίτης<br>Singular Nominative
+πολῑ́τᾱς; ὁ πολίτης<br>Plural Accusative
+πολῑτῶν; ὁ πολίτης<br>Plural Genitive
+πολῑ́του; ὁ πολίτης<br>Singular Genitive
+πολῖτᾰ; ὁ πολίτης<br>Singular Vocative
+πολῑ́τῃ; ὁ πολίτης<br>Singular Dative
+πολῑ́ταιν; ὁ πολίτης<br>Dual Genitive<br>Dual Dative
+πολῑ́ταις; ὁ πολίτης<br>Plural Dative
+πολῑ́την; ὁ πολίτης<br>Singular Accusative
+πολῖται; ὁ πολίτης<br>Plural Nominative<br>Plural Vocative
+κριτά; ὁ κριτής<br>Singular Vocative<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+κριταί; ὁ κριτής<br>Plural Nominative<br>Plural Vocative
+κριτοῦ; ὁ κριτής<br>Singular Genitive
+κριτῶν; ὁ κριτής<br>Plural Genitive
+κριτάς; ὁ κριτής<br>Plural Accusative
+κριτήν; ὁ κριτής<br>Singular Accusative
+κριτῇ; ὁ κριτής<br>Singular Dative
+κριταῖν; ὁ κριτής<br>Dual Genitive<br>Dual Dative
+κριταῖς; ὁ κριτής<br>Plural Dative
+κριτής; ὁ κριτής<br>Singular Nominative
+Ἀτρείδᾱ; Ἀτρείδης<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+Ἀτρείδη; Ἀτρείδης<br>Singular Vocative
+Ἀτρείδᾱς; Ἀτρείδης<br>Plural Accusative
+Ἀτρειδῶν; Ἀτρείδης<br>Plural Genitive
+Ἀτρείδην; Ἀτρείδης<br>Singular Accusative
+Ἀτρείδης; Ἀτρείδης<br>Singular Nominative
+Ἀτρεῖδαι; Ἀτρείδης<br>Plural Nominative<br>Plural Vocative
+Ἀτρείδῃ; Ἀτρείδης<br>Singular Dative
+Ἀτρείδου; Ἀτρείδης<br>Singular Genitive
+Ἀτρείδαις; Ἀτρείδης<br>Plural Dative
+Ἀτρείδαιν; Ἀτρείδης<br>Dual Genitive<br>Dual Dative
+μναῖν; ἡ μνᾶ<br>Dual Genitive<br>Dual Dative
+μνᾶς; ἡ μνᾶ<br>Singular Genitive<br>Plural Accusative
+μναῖ; ἡ μνᾶ<br>Plural Nominative<br>Plural Vocative
+μνᾶ; ἡ μνᾶ<br>Singular Nominative<br>Singular Vocative<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+μνᾷ; ἡ μνᾶ<br>Singular Dative
+μνᾶν; ἡ μνᾶ<br>Singular Accusative
+μνῶν; ἡ μνᾶ<br>Plural Genitive
+μναῖς; ἡ μνᾶ<br>Plural Dative
+σῡκαῖν; ἡ συκῆ<br>Dual Genitive<br>Dual Dative
+σῡκῆ; ἡ συκῆ<br>Singular Nominative<br>Singular Vocative
+σῡκῇ; ἡ συκῆ<br>Singular Dative
+σῡκῆς; ἡ συκῆ<br>Singular Genitive
+σῡκῶν; ἡ συκῆ<br>Plural Genitive
+σῡκᾶ; ἡ συκῆ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+σῡκαῖ; ἡ συκῆ<br>Plural Nominative<br>Plural Vocative
+σῡκᾶς; ἡ συκῆ<br>Plural Accusative
+σῡκῆν; ἡ συκῆ<br>Singular Accusative
+σῡκαῖς; ἡ συκῆ<br>Plural Dative
+Βορρᾶν; ὁ Βορρᾶς<br>Singular Accusative
+Βορρᾶς; ὁ Βορρᾶς<br>Singular Nominative<br>Singular Vocative
+Βορρᾶ; ὁ Βορρᾶς<br>Singular Genitive
+Βορρᾷ; ὁ Βορρᾶς<br>Singular Dative
+Ἑρμοῦ; ὁ Ἑρμῆς<br>Singular Genitive
+Ἑρμῇ / Ἑρμέᾳ; ὁ Ἑρμῆς<br>Singular Dative
+Ἑρμῆν / Ἑρμέην / Ἑρμῆ (late); ὁ Ἑρμῆς<br>Singular Accusative
+Ἑρμῆ; ὁ Ἑρμῆς<br>Singular Vocative
+Ἑρμῆς; ὁ Ἑρμῆς<br>Singular Nominative
+ἵππον; ὁ ἵππος<br>Singular Accusative
+ἵππῳ; ὁ ἵππος<br>Singular Dative
+ἵππων; ὁ ἵππος<br>Plural Genitive
+ἵπποι; ὁ ἵππος<br>Plural Nominative<br>Plural Vocative
+ἵππε; ὁ ἵππος<br>Singular Vocative
+ἵπποις; ὁ ἵππος<br>Plural Dative
+ἵπποιν; ὁ ἵππος<br>Dual Genitive<br>Dual Dative
+ἵππους; ὁ ἵππος<br>Plural Accusative
+ἵππου; ὁ ἵππος<br>Singular Genitive
+ἵππω; ὁ ἵππος<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ἵππος; ὁ ἵππος<br>Singular Nominative
+ἄνθρωπος; ὁ ἄνθρωπος<br>Singular Nominative
+ἀνθρώπου; ὁ ἄνθρωπος<br>Singular Genitive
+ἄνθρωπε; ὁ ἄνθρωπος<br>Singular Vocative
+ἀνθρώποις; ὁ ἄνθρωπος<br>Plural Dative
+ἀνθρώπων; ὁ ἄνθρωπος<br>Plural Genitive
+ἀνθρώπῳ; ὁ ἄνθρωπος<br>Singular Dative
+ἀνθρώπω; ὁ ἄνθρωπος<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ἀνθρώπους; ὁ ἄνθρωπος<br>Plural Accusative
+ἀνθρώποιν; ὁ ἄνθρωπος<br>Dual Genitive<br>Dual Dative
+ἄνθρωποι; ὁ ἄνθρωπος<br>Plural Nominative<br>Plural Vocative
+ἄνθρωπον; ὁ ἄνθρωπος<br>Singular Accusative
+ὁδῶν; ἡ ὁδός<br>Plural Genitive
+ὁδόν; ἡ ὁδός<br>Singular Accusative
+ὁδοί; ἡ ὁδός<br>Plural Nominative<br>Plural Vocative
+ὁδώ; ἡ ὁδός<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ὁδέ; ἡ ὁδός<br>Singular Vocative
+ὁδοῦ; ἡ ὁδός<br>Singular Genitive
+ὁδούς; ἡ ὁδός<br>Plural Accusative
+ὁδοῖς; ἡ ὁδός<br>Plural Dative
+ὁδοῖν; ἡ ὁδός<br>Dual Genitive<br>Dual Dative
+ὁδῷ; ἡ ὁδός<br>Singular Dative
+ὁδός; ἡ ὁδός<br>Singular Nominative
+δώροις; τὸ δῶρον<br>Plural Dative
+δώρω; τὸ δῶρον<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+δῶρᾰ; τὸ δῶρον<br>Plural Accusative<br>Plural Nominative<br>Plural Vocative
+δώρου; τὸ δῶρον<br>Singular Genitive
+δώρῳ; τὸ δῶρον<br>Singular Dative
+δώροιν; τὸ δῶρον<br>Dual Genitive<br>Dual Dative
+δώρων; τὸ δῶρον<br>Plural Genitive
+δῶρον; τὸ δῶρον<br>Singular Accusative<br>Singular Nominative<br>Singular Vocative
+(νόω) νώ; ὁ νοῦς<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+(νόον) νοῦν; ὁ νοῦς<br>Singular Accusative
+(νόοι) νοῖ; ὁ νοῦς<br>Plural Nominative<br>Plural Vocative
+(νόε) νοῦ; ὁ νοῦς<br>Singular Vocative
+(νόος) νοῦς; ὁ νοῦς<br>Singular Nominative
+(νόους) νοῦς; ὁ νοῦς<br>Plural Accusative
+(νόοις) νοῖς; ὁ νοῦς<br>Plural Dative
+(νόοιν) νοῖν; ὁ νοῦς<br>Dual Genitive<br>Dual Dative
+(νόου) νοῦ; ὁ νοῦς<br>Singular Genitive
+(νόῳ) νῷ; ὁ νοῦς<br>Singular Dative
+(νόων) νῶν; ὁ νοῦς<br>Plural Genitive
+(περίπλοε) περίπλου; ὁ περίπλους<br>Singular Vocative
+(περιπλόοις) περίπλοις; ὁ περίπλους<br>Plural Dative
+(περίπλοοι) περίπλοι; ὁ περίπλους<br>Plural Nominative<br>Plural Vocative
+(περιπλόῳ) περίπλῳ; ὁ περίπλους<br>Singular Dative
+(περιπλόω) περίπλω; ὁ περίπλους<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+(περιπλόους) περίπλοις; ὁ περίπλους<br>Plural Accusative
+(περιπλόου) περίπλου; ὁ περίπλους<br>Singular Genitive
+(περιπλόων) περίπλων; ὁ περίπλους<br>Plural Genitive
+(περίπλοος) περίπλους; ὁ περίπλους<br>Singular Nominative
+(περίπλοον) περίπλουν; ὁ περίπλους<br>Singular Accusative
+(περιπλόοιν) περίπλοιν; ὁ περίπλους<br>Dual Genitive<br>Dual Dative
+ὀστοῖν; τὸ ὀστοῦν<br>Dual Genitive<br>Dual Dative
+ὀστοῦ; τὸ ὀστοῦν<br>Singular Genitive
+ὀστῶν; τὸ ὀστοῦν<br>Plural Genitive
+ὀστώ; τὸ ὀστοῦν<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ὀστοῦν; τὸ ὀστοῦν<br>Singular Accusative<br>Singular Nominative<br>Singular Vocative
+ὀστῷ; τὸ ὀστοῦν<br>Singular Dative
+ὀστᾶ; τὸ ὀστοῦν<br>Plural Accusative<br>Plural Nominative<br>Plural Vocative
+ὀστοῖς; τὸ ὀστοῦν<br>Plural Dative
+νεών; ὁ νεώς<br>Plural Genitive
+νεώ; ὁ νεώς<br>Dual Nominative<br>Dual Vocative
+νεῴν; ὁ νεώς<br>Dual Dative
+νεῴς; ὁ νεώς<br>Plural Dative
+νεῴ; ὁ νεώς<br>Plural Nominative<br>Plural Vocative
+νεώς; ὁ νεώς<br>Plural Accusative
+Αἰθίοπες; ὁ Αἰθίοψ<br>Plural Nominative<br>Plural Vocative
+Αἰθίοπῐ(ν); ὁ Αἰθίοψ<br>Plural Dative
+Αἰθίοψ; ὁ Αἰθίοψ<br>Singular Nominative<br>Singular Vocative
+Αἰθίοπᾰ; ὁ Αἰθίοψ<br>Singular Accusative
+Αἰθίοπε; ὁ Αἰθίοψ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+Αἰθίοπᾰς; ὁ Αἰθίοψ<br>Plural Accusative
+Αἰθιόπων; ὁ Αἰθίοψ<br>Plural Genitive
+Αἰθιόποιν; ὁ Αἰθίοψ<br>Dual Genitive<br>Dual Dative
+Αἰθίοπῐ; ὁ Αἰθίοψ<br>Singular Dative
+Αἰθίοπος; ὁ Αἰθίοψ<br>Singular Genitive
+φλέβε; ἡ φλέψ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+φλεβῶν; ἡ φλέψ<br>Plural Genitive
+φλεβί; ἡ φλέψ<br>Singular Dative
+φλεβοῖν; ἡ φλέψ<br>Dual Genitive<br>Dual Dative
+φλέβᾰς; ἡ φλέψ<br>Plural Accusative
+φλέβᾰ; ἡ φλέψ<br>Singular Accusative
+φλεβός; ἡ φλέψ<br>Singular Genitive
+φλέβες; ἡ φλέψ<br>Plural Nominative<br>Plural Vocative
+φλεψί(ν); ἡ φλέψ<br>Plural Dative
+φλέψ; ἡ φλέψ<br>Singular Nominative<br>Singular Vocative
+φύλακες; ὁ φύλαξ<br>Plural Nominative<br>Plural Vocative
+φυλάκοιν; ὁ φύλαξ<br>Dual Genitive<br>Dual Dative
+φύλαξῐ(ν); ὁ φύλαξ<br>Plural Dative
+φύλακε; ὁ φύλαξ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+φύλακῐ; ὁ φύλαξ<br>Singular Dative
+φύλαξ; ὁ φύλαξ<br>Singular Nominative<br>Singular Vocative
+φύλακος; ὁ φύλαξ<br>Singular Genitive
+φυλάκων; ὁ φύλαξ<br>Plural Genitive
+φύλακᾰ; ὁ φύλαξ<br>Singular Accusative
+φύλακᾰς; ὁ φύλαξ<br>Plural Accusative
+φάλαγγᾰ; ἡ φάλαγξ<br>Singular Accusative
+φάλαγγε; ἡ φάλαγξ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+φάλαγγᾰς; ἡ φάλαγξ<br>Plural Accusative
+φάλαγγες; ἡ φάλαγξ<br>Plural Nominative<br>Plural Vocative
+φάλαγγος; ἡ φάλαγξ<br>Singular Genitive
+φάλαγγῐ(ν); ἡ φάλαγξ<br>Plural Dative
+φάλαγγῐ; ἡ φάλαγξ<br>Singular Dative
+φαλάγγοιν; ἡ φάλαγξ<br>Dual Genitive<br>Dual Dative
+φάλαγξ; ἡ φάλαγξ<br>Singular Nominative<br>Singular Vocative
+φαλάγγων; ἡ φάλαγξ<br>Plural Genitive
+αἶγᾰ; ὁ ἡ αἴξ<br>Singular Accusative
+αἰγός; ὁ ἡ αἴξ<br>Singular Genitive
+αἶγες; ὁ ἡ αἴξ<br>Plural Nominative<br>Plural Vocative
+αἰγί; ὁ ἡ αἴξ<br>Singular Dative
+αἴξ; ὁ ἡ αἴξ<br>Singular Nominative<br>Singular Vocative
+αἶγᾰς; ὁ ἡ αἴξ<br>Plural Accusative
+αἰγῶν; ὁ ἡ αἴξ<br>Plural Genitive
+αἰξί(ν); ὁ ἡ αἴξ<br>Plural Dative
+αἰγοῖν; ὁ ἡ αἴξ<br>Dual Genitive<br>Dual Dative
+αἶγε; ὁ ἡ αἴξ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+τρίχᾰς; ἡ θρίξ<br>Plural Accusative
+θρίξ; ἡ θρίξ<br>Singular Nominative<br>Singular Vocative
+τρίχᾰ; ἡ θρίξ<br>Singular Accusative
+τρῐχῶν; ἡ θρίξ<br>Plural Genitive
+τρῐχί; ἡ θρίξ<br>Singular Dative
+τρίχε; ἡ θρίξ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+τρῐχοῖν; ἡ θρίξ<br>Dual Genitive<br>Dual Dative
+τρῐχός; ἡ θρίξ<br>Singular Genitive
+τρίχες; ἡ θρίξ<br>Plural Nominative<br>Plural Vocative
+θριξί(ν); ἡ θρίξ<br>Plural Dative
+θητί; ὁ θής<br>Singular Dative
+θητοῖν; ὁ θής<br>Dual Dative
+θησί(ν); ὁ θής<br>Plural Dative
+θῆτᾰς; ὁ θής<br>Plural Accusative
+θητῶν; ὁ θής<br>Plural Genitive
+θητός; ὁ θής<br>Singular Genitive
+θής; ὁ θής<br>Singular Nominative<br>Singular Vocative
+θῆτες; ὁ θής<br>Plural Nominative<br>Plural Vocative
+θῆτε; ὁ θής<br>Dual Nominative<br>Dual Vocative
+θῆτᾰ; ὁ θής<br>Singular Accusative
+ἐλπίς; ἡ ἐλπίς<br>Singular Nominative
+ἐλπίδᾰ; ἡ ἐλπίς<br>Singular Accusative
+ἐλπίδῐ; ἡ ἐλπίς<br>Singular Dative
+ἐλπίδων; ἡ ἐλπίς<br>Plural Genitive
+ἐλπίδος; ἡ ἐλπίς<br>Singular Genitive
+ἐλπίδοιν; ἡ ἐλπίς<br>Dual Genitive<br>Dual Dative
+ἐλπίδες; ἡ ἐλπίς<br>Plural Nominative<br>Plural Vocative
+ἐλπί; ἡ ἐλπίς<br>Singular Vocative
+ἐλπίδε; ἡ ἐλπίς<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ἐλπίσῐ(ν); ἡ ἐλπίς<br>Plural Dative
+ἐλπίδᾰς; ἡ ἐλπίς<br>Plural Accusative
+χᾰρίτων; ἡ χάρις<br>Plural Genitive
+χᾰρίτοιν; ἡ χάρις<br>Dual Genitive<br>Dual Dative
+χάρῐ; ἡ χάρις<br>Singular Vocative
+χάρῐτᾰς; ἡ χάρις<br>Plural Accusative
+χάριν; ἡ χάρις<br>Singular Accusative
+χάρῐς; ἡ χάρις<br>Singular Nominative
+χάρῐσῐ(ν); ἡ χάρις<br>Plural Dative
+χάρῐτες; ἡ χάρις<br>Plural Nominative<br>Plural Vocative
+χάρῐτε; ἡ χάρις<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+χάρῐτος; ἡ χάρις<br>Singular Genitive
+χάρῐτῐ; ἡ χάρις<br>Singular Dative
+ὀρνίθοιν; ὁ ἡ ὄρνις<br>Dual Genitive<br>Dual Dative
+ὄρνῑν; ὁ ἡ ὄρνις<br>Singular Accusative
+ὄρνῑθες; ὁ ἡ ὄρνις<br>Plural Nominative<br>Plural Vocative
+ὀρνίθων; ὁ ἡ ὄρνις<br>Plural Genitive
+ὄρνῑθος; ὁ ἡ ὄρνις<br>Singular Genitive
+ὄρνῑθᾰς; ὁ ἡ ὄρνις<br>Plural Accusative
+ὄρνῑθῐ; ὁ ἡ ὄρνις<br>Singular Dative
+ὄρνῑς; ὁ ἡ ὄρνις<br>Singular Nominative
+ὄρνῑ; ὁ ἡ ὄρνις<br>Singular Vocative
+ὄρνῑθε; ὁ ἡ ὄρνις<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ὄρνῑσῐ(ν); ὁ ἡ ὄρνις<br>Plural Dative
+Γίγᾱς; ὁ Γίγας<br>Singular Nominative
+Γίγᾱσῐ(ν); ὁ Γίγας<br>Plural Dative
+Γίγαντᾰς; ὁ Γίγας<br>Plural Accusative
+Γίγαντᾰ; ὁ Γίγας<br>Singular Accusative
+Γίγαντος; ὁ Γίγας<br>Singular Genitive
+Γίγαντε; ὁ Γίγας<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+Γίγᾰν; ὁ Γίγας<br>Singular Vocative
+Γίγαντες; ὁ Γίγας<br>Plural Nominative<br>Plural Vocative
+Γῐγάντοιν; ὁ Γίγας<br>Dual Genitive<br>Dual Dative
+Γῐγάντων; ὁ Γίγας<br>Plural Genitive
+Γίγαντῐ; ὁ Γίγας<br>Singular Dative
+γέρον; ὁ γέρων<br>Singular Vocative
+γερόντων; ὁ γέρων<br>Plural Genitive
+γέρων; ὁ γέρων<br>Singular Nominative
+γέροντᾰ; ὁ γέρων<br>Singular Accusative
+γέρουσῐ(ν); ὁ γέρων<br>Plural Dative
+γέροντος; ὁ γέρων<br>Singular Genitive
+γέροντες; ὁ γέρων<br>Plural Nominative<br>Plural Vocative
+γέροντῐ; ὁ γέρων<br>Singular Dative
+γέροντᾰς; ὁ γέρων<br>Plural Accusative
+γέροντε; ὁ γέρων<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+γερόντοιν; ὁ γέρων<br>Dual Genitive<br>Dual Dative
+σώμᾰσῐ(ν); τὸ σῶμα<br>Plural Dative
+σῶμᾰ; τὸ σῶμα<br>Singular Accusative<br>Singular Nominative<br>Singular Vocative
+σωμάτοιν; τὸ σῶμα<br>Dual Genitive<br>Dual Dative
+σώμᾰτος; τὸ σῶμα<br>Singular Genitive
+σώμᾰτᾰ; τὸ σῶμα<br>Plural Accusative<br>Plural Nominative<br>Plural Vocative
+σώμᾰτῐ; τὸ σῶμα<br>Singular Dative
+σώμᾰτε; τὸ σῶμα<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+σωμάτων; τὸ σῶμα<br>Plural Genitive
+ἥπατε; τὸ ἧπαρ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ἡπάτων; τὸ ἧπαρ<br>Plural Genitive
+ἥπατᾰ; τὸ ἧπαρ<br>Plural Accusative<br>Plural Nominative<br>Plural Vocative
+ἥπατος; τὸ ἧπαρ<br>Singular Genitive
+ἧπαρ; τὸ ἧπαρ<br>Singular Accusative<br>Singular Nominative<br>Singular Vocative
+ἡπάτοιν; τὸ ἧπαρ<br>Dual Genitive<br>Dual Dative
+ἥπασῐ(ν); τὸ ἧπαρ<br>Plural Dative
+ἥπατῐ; τὸ ἧπαρ<br>Singular Dative
+τέρας; τὸ τέρας<br>Singular Accusative<br>Singular Nominative<br>Singular Vocative
+τέρασῐ(ν); τὸ τέρας<br>Plural Dative
+τεράτων; τὸ τέρας<br>Plural Genitive
+τέρατε; τὸ τέρας<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+τέρατος; τὸ τέρας<br>Singular Genitive
+τεράτοιν; τὸ τέρας<br>Dual Genitive<br>Dual Dative
+τέρατῐ; τὸ τέρας<br>Singular Dative
+τέρατᾰ; τὸ τέρας<br>Plural Accusative<br>Plural Nominative<br>Plural Vocative
+κέρατῐ; τὸ κέρας<br>Singular Dative
+κεράτοιν; τὸ κέρας<br>Dual Genitive<br>Dual Dative
+κέρατᾰ; τὸ κέρας<br>Plural Accusative<br>Plural Nominative<br>Plural Vocative
+κέρατε; τὸ κέρας<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+κεράτων; τὸ κέρας<br>Plural Genitive
+κέρατος; τὸ κέρας<br>Singular Genitive
+κέρασῐ(ν); τὸ κέρας<br>Plural Dative
+κέρας; τὸ κέρας<br>Singular Accusative<br>Singular Nominative<br>Singular Vocative
+θῆρε; ὁ θήρ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+θηρός; ὁ θήρ<br>Singular Genitive
+θήρ; ὁ θήρ<br>Singular Nominative<br>Singular Vocative
+θῆρᾰς; ὁ θήρ<br>Plural Accusative
+θῆρᾰ; ὁ θήρ<br>Singular Accusative
+θηροῖν; ὁ θήρ<br>Dual Genitive<br>Dual Dative
+θῆρες; ὁ θήρ<br>Plural Nominative<br>Plural Vocative
+θηρσί(ν); ὁ θήρ<br>Plural Dative
+θηρῶν; ὁ θήρ<br>Plural Genitive
+θηρί; ὁ θήρ<br>Singular Dative
+ῥήτορᾰς; ὁ ῥήτωρ<br>Plural Accusative
+ῥήτορος; ὁ ῥήτωρ<br>Singular Genitive
+ῥήτορᾰ; ὁ ῥήτωρ<br>Singular Accusative
+ῥήτορῐ; ὁ ῥήτωρ<br>Singular Dative
+ῥήτορε; ὁ ῥήτωρ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ῥήτωρ; ὁ ῥήτωρ<br>Singular Nominative<br>Singular Vocative
+ῥητόροιν; ὁ ῥήτωρ<br>Dual Genitive<br>Dual Dative
+ῥητόρων; ὁ ῥήτωρ<br>Plural Genitive
+ῥήτορες; ὁ ῥήτωρ<br>Plural Nominative<br>Plural Vocative
+ῥήτορσῐ(ν); ὁ ῥήτωρ<br>Plural Dative
+ῥίς; ἡ ῥίς<br>Singular Nominative<br>Singular Vocative
+ῥῖνες; ἡ ῥίς<br>Plural Nominative<br>Plural Vocative
+ῥῖνᾰ; ἡ ῥίς<br>Singular Accusative
+ῥινοῖν; ἡ ῥίς<br>Dual Genitive<br>Dual Dative
+ῥῖνᾰς; ἡ ῥίς<br>Plural Accusative
+ῥῖνε; ἡ ῥίς<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ῥινός; ἡ ῥίς<br>Singular Genitive
+ῥινί; ἡ ῥίς<br>Singular Dative
+ῥινῶν; ἡ ῥίς<br>Plural Genitive
+ῥισί(ν); ἡ ῥίς<br>Plural Dative
+ἡγεμόνος; ἡγεμών<br>Singular Genitive
+ἡγεμόνοιν; ἡγεμών<br>Dual Genitive<br>Dual Dative
+ἡγεμόνῐ; ἡγεμών<br>Singular Dative
+ἡγεμόνᾰς; ἡγεμών<br>Plural Accusative
+ἡγεμόνᾰ; ἡγεμών<br>Singular Accusative
+ἡγεμοῦσῐ(ν); ἡγεμών<br>Plural Dative
+ἡγεμόνες; ἡγεμών<br>Plural Nominative<br>Plural Vocative
+ἡγεμόνε; ἡγεμών<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ἡγεμόνων; ἡγεμών<br>Plural Genitive
+ἡγεμών; ἡγεμών<br>Singular Nominative<br>Singular Vocative
+ἀγῶνε; ἀγών<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ἀγῶνᾰς; ἀγών<br>Plural Accusative
+ἀγῶνᾰ; ἀγών<br>Singular Accusative
+ἀγῶνος; ἀγών<br>Singular Genitive
+ἀγῶνες; ἀγών<br>Plural Nominative<br>Plural Vocative
+ἀγῶσῐ(ν); ἀγών<br>Plural Dative
+ἀγώνοιν; ἀγών<br>Dual Genitive<br>Dual Dative
+ἀγώνων; ἀγών<br>Plural Genitive
+ἀγών; ἀγών<br>Singular Nominative<br>Singular Vocative
+ἀγῶνῐ; ἀγών<br>Singular Dative
+ποιμένᾰς; ποιμήν<br>Plural Accusative
+ποιμήν; ποιμήν<br>Singular Nominative<br>Singular Vocative
+ποιμεῖσῐ(ν); ποιμήν<br>Plural Dative
+ποιμένος; ποιμήν<br>Singular Genitive
+ποιμένᾰ; ποιμήν<br>Singular Accusative
+ποιμένες; ποιμήν<br>Plural Nominative<br>Plural Vocative
+ποιμένε; ποιμήν<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ποιμένων; ποιμήν<br>Plural Genitive
+ποιμένῐ; ποιμήν<br>Singular Dative
+ποιμένοιν; ποιμήν<br>Dual Genitive<br>Dual Dative
+πᾰτέρᾰ; ὁ πατήρ<br>Singular Accusative
+πᾰτέρῐ; ὁ πατήρ<br>Singular Dative
+πᾰτέρε; ὁ πατήρ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+πᾰτέρων; ὁ πατήρ<br>Plural Genitive
+πᾰτέρες; ὁ πατήρ<br>Plural Nominative<br>Plural Vocative
+πᾰτήρ; ὁ πατήρ<br>Singular Nominative
+πᾰτέροιν; ὁ πατήρ<br>Dual Genitive<br>Dual Dative
+πᾰτέρᾰς; ὁ πατήρ<br>Plural Accusative
+πᾰτράσῐ(ν); ὁ πατήρ<br>Plural Dative
+πάτερ; ὁ πατήρ<br>Singular Vocative
+πᾰτέρος; ὁ πατήρ<br>Singular Genitive
+μητέρας; ἡ μήτηρ<br>Plural Accusative
+μητέροιν; ἡ μήτηρ<br>Dual Genitive<br>Dual Dative
+μητέρα; ἡ μήτηρ<br>Singular Accusative
+μῆτερ; ἡ μήτηρ<br>Singular Vocative
+μητέρε; ἡ μήτηρ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+μητράσι(ν); ἡ μήτηρ<br>Plural Dative
+μήτρός; ἡ μήτηρ<br>Singular Genitive
+μητρί; ἡ μήτηρ<br>Singular Dative
+μητέρες; ἡ μήτηρ<br>Plural Nominative<br>Plural Vocative
+μητέραν; ἡ μήτηρ<br>Plural Genitive
+μήτηρ; ἡ μήτηρ<br>Singular Nominative
+θυγατέρος; ἡ θυγάτηρ<br>Singular Genitive
+θυγατέροιν; ἡ θυγάτηρ<br>Dual Genitive<br>Dual Dative
+θυγάτηρ; ἡ θυγάτηρ<br>Singular Nominative
+θυγατράσι; ἡ θυγάτηρ<br>Plural Dative
+θυγατέρᾰς; ἡ θυγάτηρ<br>Plural Accusative
+θυγατέρε; ἡ θυγάτηρ<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+θύγατερ; ἡ θυγάτηρ<br>Singular Vocative
+θυγατέρᾰ; ἡ θυγάτηρ<br>Singular Accusative
+θυγατέρες; ἡ θυγάτηρ<br>Plural Nominative<br>Plural Vocative
+θυγατέρων; ἡ θυγάτηρ<br>Plural Genitive
+θυγατέρῐ; ἡ θυγάτηρ<br>Singular Dative
+ἄνδρας; ὁ ἀνήρ<br>Plural Accusative
+ἄνδρα; ὁ ἀνήρ<br>Singular Accusative
+ἄνδρε; ὁ ἀνήρ<br>Dual Nominative<br>Dual Vocative
+ἀνήρ; ὁ ἀνήρ<br>Singular Nominative
+ἀνδράσι(ν); ὁ ἀνήρ<br>Plural Dative
+ἀνδρῶν; ὁ ἀνήρ<br>Plural Genitive
+ἀνδρί; ὁ ἀνήρ<br>Singular Dative
+ἀνδροῖν; ὁ ἀνήρ<br>Dual Dative
+ἄνερ; ὁ ἀνήρ<br>Singular Vocative
+ἀνδρός; ὁ ἀνήρ<br>Singular Genitive
+ἄνδρες; ὁ ἀνήρ<br>Plural Nominative<br>Plural Vocative
+(Σωκράτει) Σωκράτει; ὁ Σωκράτης<br>Singular Dative
+(Σωκράτεα) Σωκράτη; ὁ Σωκράτης<br>Singular Accusative
+Σωκράτης; ὁ Σωκράτης<br>Singular Nominative
+(Σωκράτεος) Σωκράτους; ὁ Σωκράτης<br>Singular Genitive
+Σώκρατες; ὁ Σωκράτης<br>Singular Vocative
+Δημοσθένους; ὁ Δημοσθένης<br>Singular Genitive
+Δημοσθένη; ὁ Δημοσθένης<br>Singular Accusative
+Δημοσθένει; ὁ Δημοσθένης<br>Singular Dative
+Δημοσθένης; ὁ Δημοσθένης<br>Singular Nominative
+Δημόσθενες; ὁ Δημοσθένης<br>Singular Vocative
+(τριηρέοιν) τριήροιν; ἡ τριήρης<br>Dual Genitive<br>Dual Dative
+(τριήρεος) τριήρους; ἡ τριήρης<br>Singular Genitive
+τριήρης; ἡ τριήρης<br>Singular Nominative
+(τριήρεε) τριήρει; ἡ τριήρης<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+(τριήρεσσι) τριήρεσι(ν); ἡ τριήρης<br>Plural Dative
+(τριηρέων) τριήρων; ἡ τριήρης<br>Plural Genitive
+(τριήρεες) τριήρεις; ἡ τριήρης<br>Plural Nominative<br>Plural Vocative
+(τριήρει) τριήρει; ἡ τριήρης<br>Singular Dative
+τριήρεις; ἡ τριήρης<br>Plural Accusative
+(τριήρεα) τριήρη; ἡ τριήρης<br>Singular Accusative
+τριῆρες; ἡ τριήρης<br>Singular Vocative
+γενέοιν; τὸ γένος<br>Dual Genitive<br>Dual Dative
+γενέων; τὸ γένος<br>Plural Genitive
+γένεϊ; τὸ γένος<br>Singular Dative
+γένεε; τὸ γένος<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+γένος; τὸ γένος<br>Singular Accusative<br>Singular Nominative<br>Singular Vocative
+γένεος; τὸ γένος<br>Singular Genitive
+γένεᾰ; τὸ γένος<br>Plural Accusative<br>Plural Nominative<br>Plural Vocative
+γένεσσῐ(ν); τὸ γένος<br>Plural Dative
+(γέραα) γέρᾱ; τὸ γέρας<br>Plural Accusative<br>Plural Nominative<br>Plural Vocative
+(γέραι) γέραι; τὸ γέρας<br>Singular Dative
+(γεράοιν) γερῷν; τὸ γέρας<br>Dual Genitive<br>Dual Dative
+(γέρασσι) γέρασι(ν); τὸ γέρας<br>Plural Dative
+(γέραος) γέρως; τὸ γέρας<br>Singular Genitive
+(γεράων) γερῶν; τὸ γέρας<br>Plural Genitive
+γέρας; τὸ γέρας<br>Singular Accusative<br>Singular Nominative<br>Singular Vocative
+(γέραε) γέρᾱ; τὸ γέρας<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+(δέει) δέει; τὸ δέος<br>Singular Dative
+δέος; τὸ δέος<br>Singular Accusative<br>Singular Nominative<br>Singular Vocative
+(δέεος) δέους; τὸ δέος<br>Singular Genitive
+Περικλέᾱ; Περικλῆς<br>Singular Accusative
+Περικλῆς; Περικλῆς<br>Singular Nominative
+Περίκλεις; Περικλῆς<br>Singular Vocative
+Περικλέους; Περικλῆς<br>Singular Genitive
+Περικλεῖ; Περικλῆς<br>Singular Dative
+(αἰδόος) αἰδοῦς; ἡ αἰδώς<br>Singular Genitive
+(αἰδόι) αἰδοῖ; ἡ αἰδώς<br>Singular Dative
+αἰδώς; ἡ αἰδώς<br>Singular Nominative<br>Singular Vocative
+(αἰδόα) αἰδῶ; ἡ αἰδώς<br>Singular Accusative
+ἥρωᾰ; ἥρως<br>Singular Accusative
+ἥρωος; ἥρως<br>Singular Genitive
+ἡρώων; ἥρως<br>Plural Genitive
+ἥρωᾰς; ἥρως<br>Plural Accusative
+ἥρως; ἥρως<br>Singular Nominative<br>Singular Vocative
+ἥρωσῐ(ν); ἥρως<br>Plural Dative
+ἥρωες; ἥρως<br>Plural Nominative<br>Plural Vocative
+ἥρωε; ἥρως<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ἥρωῐ; ἥρως<br>Singular Dative
+ἡρώοιν; ἥρως<br>Dual Genitive<br>Dual Dative
+πόλῐς; ἡ πόλις<br>Singular Nominative
+πόλει; ἡ πόλις<br>Singular Dative<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+πόλεις; ἡ πόλις<br>Plural Accusative<br>Plural Nominative<br>Plural Vocative
+πόλεων; ἡ πόλις<br>Plural Genitive
+πόλῐ; ἡ πόλις<br>Singular Vocative
+πολέοιν; ἡ πόλις<br>Dual Genitive<br>Dual Dative
+πόλεσῐ(ν); ἡ πόλις<br>Plural Dative
+πόλεως; ἡ πόλις<br>Singular Genitive
+πόλῐν; ἡ πόλις<br>Singular Accusative
+πήχεων; ὁ πῆχυς<br>Plural Genitive
+πήχεις; ὁ πῆχυς<br>Plural Accusative<br>Plural Nominative<br>Plural Vocative
+πήχει; ὁ πῆχυς<br>Singular Dative<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+πηχέοιν; ὁ πῆχυς<br>Dual Genitive<br>Dual Dative
+πῆχυν; ὁ πῆχυς<br>Singular Accusative
+πῆχυς; ὁ πῆχυς<br>Singular Nominative
+πήχεως; ὁ πῆχυς<br>Singular Genitive
+πήχεσι(ν); ὁ πῆχυς<br>Plural Dative
+πῆχυ; ὁ πῆχυς<br>Singular Vocative
+ἄστεσι(ν); τὸ ἄστυ<br>Plural Dative
+ἄστη; τὸ ἄστυ<br>Plural Accusative<br>Plural Nominative<br>Plural Vocative
+ἄστεως; τὸ ἄστυ<br>Singular Genitive
+ἄστεων; τὸ ἄστυ<br>Plural Genitive
+ἀστέοιν; τὸ ἄστυ<br>Dual Genitive<br>Dual Dative
+ἄστει; τὸ ἄστυ<br>Singular Dative<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+ἄστυ; τὸ ἄστυ<br>Singular Accusative<br>Singular Nominative<br>Singular Vocative
+σύες; ὁ/ἡ σῦς<br>Plural Nominative<br>Plural Vocative
+σῦς; ὁ/ἡ σῦς<br>Plural Accusative
+σῦ; ὁ/ἡ σῦς<br>Singular Vocative
+συῶν; ὁ/ἡ σῦς<br>Plural Genitive
+συοῖν; ὁ/ἡ σῦς<br>Dual Dative
+σῦν; ὁ/ἡ σῦς<br>Singular Accusative
+συσΐ(ν); ὁ/ἡ σῦς<br>Plural Dative
+συΐ; ὁ/ἡ σῦς<br>Singular Dative
+σύε; ὁ/ἡ σῦς<br>Dual Nominative<br>Dual Vocative
+συός; ὁ/ἡ σῦς<br>Singular Genitive
+ἰχθύϊ; ὁ ἰχθύς<br>Singular Dative
+ἰχθύοιν; ὁ ἰχθύς<br>Dual Dative
+ἰχθύς; ὁ ἰχθύς<br>Singular Nominative
+ἰχθύων; ὁ ἰχθύς<br>Plural Genitive
+ἰχθῦς; ὁ ἰχθύς<br>Plural Accusative
+ἰχθύες; ὁ ἰχθύς<br>Plural Nominative<br>Plural Vocative
+ἰχθύν; ὁ ἰχθύς<br>Singular Accusative
+ἰχθύος; ὁ ἰχθύς<br>Singular Genitive
+ἰχθύσῐ(ν); ὁ ἰχθύς<br>Plural Dative
+ἰχθύε; ὁ ἰχθύς<br>Dual Nominative<br>Dual Vocative
+ἰχθύ; ὁ ἰχθύς<br>Singular Vocative
+οἶς; οἶς<br>Singular Nominative<br>Plural Accusative
+οἰοῖν; οἶς<br>Dual Genitive<br>Dual Dative
+οἰός; οἶς<br>Singular Genitive
+οἶ; οἶς<br>Singular Vocative
+οἰῶν; οἶς<br>Plural Genitive
+οἰί; οἶς<br>Singular Dative
+οἰσί(ν); οἶς<br>Plural Dative
+οἶε; οἶς<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+οἶες; οἶς<br>Plural Nominative<br>Plural Vocative
+οἶν; οἶς<br>Singular Accusative
+βᾰσῐλέως; ὁ βασιλεύς<br>Singular Genitive
+βᾰσῐλέᾰ; ὁ βασιλεύς<br>Singular Accusative
+βᾰσῐλεύς; ὁ βασιλεύς<br>Singular Nominative
+βᾰσῐλεῦ; ὁ βασιλεύς<br>Singular Vocative
+βᾰσῐλέᾰς; ὁ βασιλεύς<br>Plural Accusative
+βᾰσῐλέοιν; ὁ βασιλεύς<br>Dual Genitive<br>Dual Dative
+βᾰσῐλεῦσῐ(n); ὁ βασιλεύς<br>Plural Dative
+βᾰσῐλῆ; ὁ βασιλεύς<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+βᾰσῐλεῖς; ὁ βασιλεύς<br>Plural Nominative<br>Plural Vocative
+βᾰσῐλεῖ; ὁ βασιλεύς<br>Singular Dative
+βᾰσῐλέων; ὁ βασιλεύς<br>Plural Genitive
+γραῦς; ἡ γραῦς<br>Singular Nominative<br>Plural Accusative
+γρᾱίˉ; ἡ γραῦς<br>Singular Dative
+γραυσί(ν); ἡ γραῦς<br>Plural Dative
+γρᾱοῖν; ἡ γραῦς<br>Dual Genitive<br>Dual Dative
+γραῦ; ἡ γραῦς<br>Singular Vocative
+γρᾶες; ἡ γραῦς<br>Plural Nominative<br>Plural Vocative
+γρᾶε; ἡ γραῦς<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+γρᾱῶν; ἡ γραῦς<br>Plural Genitive
+γρᾱός; ἡ γραῦς<br>Singular Genitive
+γραῦν; ἡ γραῦς<br>Singular Accusative
+ναυσί(ν); ἡ ναῦς<br>Plural Dative
+ναῦν; ἡ ναῦς<br>Singular Accusative
+νεῶν; ἡ ναῦς<br>Plural Genitive
+νεοῖν; ἡ ναῦς<br>Dual Genitive<br>Dual Dative
+νηΐ; ἡ ναῦς<br>Singular Dative
+νῆες; ἡ ναῦς<br>Plural Nominative<br>Plural Vocative
+ναῦ; ἡ ναῦς<br>Singular Vocative
+ναῦς; ἡ ναῦς<br>Singular Nominative<br>Plural Accusative
+νεώς; ἡ ναῦς<br>Singular Genitive
+νῆε; ἡ ναῦς<br>Dual Accusative<br>Dual Nominative<br>Dual Vocative
+βοός; ὁ/ἡ βοῦς<br>Singular Genitive
+βοΐ; ὁ/ἡ βοῦς<br>Singular Dative
+βοῦν; ὁ/ἡ βοῦς<br>Singular Accusative
+βοῦς; ὁ/ἡ βοῦς<br>Plural Accusative
+βουσί(ν); ὁ/ἡ βοῦς<br>Plural Dative
+βοῦ; ὁ/ἡ βοῦς<br>Singular Vocative
+βοοῖν; ὁ/ἡ βοῦς<br>Dual Dative
+βόες; ὁ/ἡ βοῦς<br>Plural Nominative<br>Plural Vocative
+βόε; ὁ/ἡ βοῦς<br>Dual Nominative<br>Dual Vocative
+βοῶν; ὁ/ἡ βοῦς<br>Plural Genitive
+πειθοῦς; ἡ πειθώ<br>Singular Genitive
+πειθοῖ; ἡ πειθώ<br>Singular Dative<br>Singular Vocative
+πειθώ; ἡ πειθώ<br>Singular Accusative<br>Singular Nominative
