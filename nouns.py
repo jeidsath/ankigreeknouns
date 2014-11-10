@@ -45,7 +45,7 @@ ARTICLE_MAP = {'m': {'Singular': {'Nominative': u'ὁ',
                                   'Genitive': u'τῶν',
                                   'Dative': u'τοῖς',
                                   'Accusative': u'τοὺς',
-                                  'Vocative': u'τὼ'}, },
+                                  'Vocative': u'οἱ'}, },
                'f': {'Singular': {'Nominative': u'ἡ',
                                   'Genitive': u'τῆς',
                                   'Dative': u'τῷ',
@@ -75,7 +75,7 @@ ARTICLE_MAP = {'m': {'Singular': {'Nominative': u'ὁ',
                                   'Genitive': u'τῶν',
                                   'Dative': u'τοῖς',
                                   'Accusative': u'τὰ',
-                                  'Vocative': u'τὼ'}, }}
+                                  'Vocative': u'τὰ'}, }}
 
 
 def main():
