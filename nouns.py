@@ -232,7 +232,7 @@ def prepare_shelf():
     SHELF['ἡ γραῦς'] = {
         'Singular': {'Nominative': u'γραῦς',
                      'Genitive': u'γρᾱός',
-                     'Dative': u'γρᾱίˉ',
+                     'Dative': u'γρᾱῑ́',
                      'Accusative': u'γραῦν',
                      'Vocative': u'γραῦ',
                      },
