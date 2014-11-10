@@ -346,9 +346,10 @@ def output_word_defs(word):
         articles = set()
         for case, decl in defs[form]:
             articles.add(article_for_word(word, case, decl))
-        ss = clean_form(form) + '; ' + dict_form
+        ss = clean_form(form) + '; '
         for article in articles:
-            ss += '<br>' + article + ' ' + form
+            ss += article + ' ' + form + '<br>'
+        ss += '<br><i>' + dict_form + '</i>'
         print ss.encode('utf-8')
 
 
