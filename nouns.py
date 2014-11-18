@@ -349,10 +349,19 @@ def output_word_defs(word):
         if not SHELF[word].get(case):
             continue
         for decl, form in SHELF[word][case].iteritems():
+            article = article_for_word(word, case, decl)
             for ff in min_form(clean_form(form)):
                 if not defs.get(ff):
                     defs[ff] = []
                 defs[ff].append([case, decl])
+            ss = dict_form + "<br>" + article + " ________; "
+            answers = min_form(clean_form(form))
+            answers = map(lambda xx: article + ' ' + xx, answers)
+            ss += "<br>".join(answers)
+
+            if not ignore_cases(article, case, decl):
+                with open(NOUNS_REVERSE, 'a') as ff:
+                    ff.write(ss.encode('utf-8') + "\n")
 
     # forward
     for form in defs.keys():
@@ -365,16 +374,18 @@ def output_word_defs(word):
         ss += '<br>' + dict_form
         with open(NOUNS_FILE, 'a') as ff:
             ff.write(ss.encode('utf-8') + "\n")
-    # reverse
-    for form in defs.keys():
-        articles = set()
-        for case, decl in defs[form]:
-            articles.add(article_for_word(word, case, decl))
-        for article in articles:
-            ss = dict_form + "<br>" + article + " ________; "
-            ss += article + ' ' + form
-            with open(NOUNS_REVERSE, 'a') as ff:
-                ff.write(ss.encode('utf-8') + "\n")
+
+
+def ignore_cases(article, case, decl):
+    article = article.split('/')[0]
+    noms = [u'τὼ', u'τὸ', u'τὰ', u'οἱ', u'αἱ']
+    if article in noms:
+        if decl != 'Nominative':
+            return True
+    if article == u'τοῖν':
+        if decl != 'Genitive':
+            return True
+    return False
 
 
 def min_form(form):
