@@ -5,7 +5,10 @@ import shelve
 import argparse
 import requests
 import re
+import os
 
+NOUNS_FILE = 'nouns.txt'
+NOUNS_REVERSE = 'reverse_nouns.txt'
 WIKTIONARY = 'http://en.wiktionary.org/wiki/'
 FIRST_DECL = (['ἡ χώρα', 'ἡ νίκη', 'ἡ φυγή', 'ἡ μοῖρα', 'ἡ γλῶττα',
                'ἡ θάλαττα'] +
@@ -303,6 +306,14 @@ def download_and_save(word):
 
 
 def anki(words):
+    try:
+        os.unlink(NOUNS_FILE)
+    except OSError:
+        pass
+    try:
+        os.unlink(NOUNS_REVERSE)
+    except OSError:
+        pass
     for word in words:
         output_word_defs(word)
 
@@ -343,6 +354,7 @@ def output_word_defs(word):
                     defs[ff] = []
                 defs[ff].append([case, decl])
 
+    # forward
     for form in defs.keys():
         articles = set()
         for case, decl in defs[form]:
@@ -351,7 +363,18 @@ def output_word_defs(word):
         for article in articles:
             ss += article + ' ' + form + '<br>'
         ss += '<br>' + dict_form
-        print ss.encode('utf-8')
+        with open(NOUNS_FILE, 'a') as ff:
+            ff.write(ss.encode('utf-8') + "\n")
+    # reverse
+    for form in defs.keys():
+        articles = set()
+        for case, decl in defs[form]:
+            articles.add(article_for_word(word, case, decl))
+        for article in articles:
+            ss = dict_form + "<br>" + article + " ________; "
+            ss += article + ' ' + form
+            with open(NOUNS_REVERSE, 'a') as ff:
+                ff.write(ss.encode('utf-8') + "\n")
 
 
 def min_form(form):
