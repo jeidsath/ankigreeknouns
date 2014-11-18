@@ -14,10 +14,10 @@ def main():
     if args.get:
         download_and_save(args.get)
     if args.show:
-        show_forms(args.show)
+        anki.show_forms(args.show, SHELF)
     if args.anki:
         prepare_shelf()
-        create_noun_files(anki.WORDS)
+        create_noun_files(anki.NOUNS)
 
 
 def prepare_shelf():
@@ -452,18 +452,6 @@ def get_noun_forms(html):
 
 def save_forms(noun, forms):
     SHELF[noun] = forms
-
-
-def show_forms(noun):
-    forms = SHELF[noun]
-    print unicode(repr(forms), 'utf-8')
-    for kk in forms.keys():
-        print kk
-        if kk != 'gender':
-            for key, value in forms[kk].iteritems():
-                print key, value
-        else:
-            print forms[kk]
 
 
 if __name__ == '__main__':

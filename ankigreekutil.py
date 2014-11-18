@@ -29,7 +29,7 @@ THIRD_DECL = (['ὁ Αἰθίοψ', 'ἡ φλέψ', 'ὁ φύλαξ', 'ἡ φά�
               ['ὁ/ἡ οἶς'] +
               ['ὁ βασιλεύς', 'ἡ γραῦς', 'ἡ ναῦς', 'ὁ/ἡ βοῦς'] +
               ['ἡ πειθώ'])
-WORDS = FIRST_DECL + SECOND_DECL + THIRD_DECL
+NOUNS = FIRST_DECL + SECOND_DECL + THIRD_DECL
 ARTICLE_MAP = {'m': {'Singular': {'Nominative': u'ὁ',
                                   'Genitive': u'τοῦ',
                                   'Dative': u'τῷ',
@@ -80,3 +80,24 @@ ARTICLE_MAP = {'m': {'Singular': {'Nominative': u'ὁ',
 def get_html_from_wiktionary(word):
     print "Called for " + unicode(word, 'utf-8')
     return requests.get(WIKTIONARY + word.split(' ')[-1]).content
+
+
+def article_from_gender(gender):
+    if gender == 'feminine':
+        return u'ἡ'
+    if gender == 'masculine':
+        return u'ὁ'
+    if gender == 'neuter':
+        return u'τὸ'
+
+
+def show_forms(noun, shelf):
+    forms = shelf[noun]
+    print unicode(repr(forms), 'utf-8')
+    for kk in forms.keys():
+        print kk
+        if kk != 'gender':
+            for key, value in forms[kk].iteritems():
+                print key, value
+        else:
+            print forms[kk]
