@@ -3,82 +3,10 @@
 
 import shelve
 import argparse
-import requests
 import re
 import os
 
-NOUNS_FILE = 'nouns.txt'
-NOUNS_REVERSE = 'reverse_nouns.txt'
-WIKTIONARY = 'http://en.wiktionary.org/wiki/'
-FIRST_DECL = (['ἡ χώρα', 'ἡ νίκη', 'ἡ φυγή', 'ἡ μοῖρα', 'ἡ γλῶττα',
-               'ἡ θάλαττα'] +
-              ['ὁ νεανίας', 'ὁ πολίτης', 'ὁ κριτής', 'ὁ Ἀτρείδης'] +
-              ['ἡ μνᾶ', 'ἡ συκῆ', 'ὁ Βορρᾶς', 'ὁ Ἑρμῆς'])
-SECOND_DECL = (['ὁ ἵππος', 'ὁ ἄνθρωπος', 'ἡ ὁδός', 'τὸ δῶρον'] +
-               ['ὁ νοῦς', 'ὁ περίπλους', 'τὸ ὀστοῦν'] +
-               ['ὁ νεώς'])
-THIRD_DECL = (['ὁ Αἰθίοψ', 'ἡ φλέψ', 'ὁ φύλαξ', 'ἡ φάλαγξ', 'ὁ/ἡ αἴξ',
-               'ἡ θρίξ'] +
-              ['ὁ θής', 'ἡ ἐλπίς', 'ἡ χάρις', 'ὁ/ἡ ὄρνις', 'ὁ Γίγας',
-               'ὁ γέρων'] +
-              ['τὸ σῶμα', 'τὸ ἧπαρ', 'τὸ τέρας', 'τὸ κέρας'] +
-              ['ὁ θήρ', 'ὁ ῥήτωρ', 'ἡ ῥίς', 'ὁ ἡγεμών', 'ὁ ἀγών', 'ὁ ποιμήν'] +
-              ['ὁ πατήρ', 'ἡ μήτηρ', 'ἡ θυγάτηρ', 'ὁ ἀνήρ'] +
-              ['ὁ Σωκράτης', 'ὁ Δημοσθένης', 'ἡ τριήρης', 'τὸ γένος',
-               'τὸ γέρας'] +
-              ['τὸ δέος', 'ὁ Περικλῆς'] +
-              ['ἡ αἰδώς'] +
-              ['ὁ ἥρως'] +
-              ['ἡ πόλις', 'ὁ πῆχυς', 'τὸ ἄστυ', 'ὁ/ἡ σῦς', 'ὁ ἰχθύς'] +
-              ['ὁ/ἡ οἶς'] +
-              ['ὁ βασιλεύς', 'ἡ γραῦς', 'ἡ ναῦς', 'ὁ/ἡ βοῦς'] +
-              ['ἡ πειθώ'])
-WORDS = FIRST_DECL + SECOND_DECL + THIRD_DECL
-ARTICLE_MAP = {'m': {'Singular': {'Nominative': u'ὁ',
-                                  'Genitive': u'τοῦ',
-                                  'Dative': u'τῷ',
-                                  'Accusative': u'τὸν',
-                                  'Vocative': u'ῶ'},
-                     'Dual':     {'Nominative': u'τὼ',
-                                  'Genitive': u'τοῖν',
-                                  'Dative': u'τοῖν',
-                                  'Accusative': u'τὼ',
-                                  'Vocative': u'τὼ'},
-                     'Plural':   {'Nominative': u'οἱ',
-                                  'Genitive': u'τῶν',
-                                  'Dative': u'τοῖς',
-                                  'Accusative': u'τοὺς',
-                                  'Vocative': u'οἱ'}, },
-               'f': {'Singular': {'Nominative': u'ἡ',
-                                  'Genitive': u'τῆς',
-                                  'Dative': u'τῇ',
-                                  'Accusative': u'τὴν',
-                                  'Vocative': u'ῶ'},
-                     'Dual':     {'Nominative': u'τὼ',
-                                  'Genitive': u'τοῖν',
-                                  'Dative': u'τοῖν',
-                                  'Accusative': u'τὼ',
-                                  'Vocative': u'τὼ'},
-                     'Plural':   {'Nominative': u'αἱ',
-                                  'Genitive': u'τῶν',
-                                  'Dative': u'ταῖς',
-                                  'Accusative': u'τὰς',
-                                  'Vocative': u'αἱ'}, },
-               'n': {'Singular': {'Nominative': u'τὸ',
-                                  'Genitive': u'τοῦ',
-                                  'Dative': u'τῷ',
-                                  'Accusative': u'τὸ',
-                                  'Vocative': u'ῶ'},
-                     'Dual':     {'Nominative': u'τὼ',
-                                  'Genitive': u'τοῖν',
-                                  'Dative': u'τοῖν',
-                                  'Accusative': u'τὼ',
-                                  'Vocative': u'τὼ'},
-                     'Plural':   {'Nominative': u'τὰ',
-                                  'Genitive': u'τῶν',
-                                  'Dative': u'τοῖς',
-                                  'Accusative': u'τὰ',
-                                  'Vocative': u'τὰ'}, }}
+import ankigreekutil as anki
 
 
 def main():
@@ -89,7 +17,7 @@ def main():
         show_forms(args.show)
     if args.anki:
         prepare_shelf()
-        anki(WORDS)
+        create_noun_files(anki.WORDS)
 
 
 def prepare_shelf():
@@ -300,31 +228,22 @@ def prepare_shelf():
 
 
 def download_and_save(word):
-    html = get_html_from_wiktionary(word)
+    html = anki.get_html_from_wiktionary(word)
     forms = get_noun_forms(html)
     save_forms(word, forms)
 
 
-def anki(words):
+def create_noun_files(words):
     try:
-        os.unlink(NOUNS_FILE)
+        os.unlink(anki.NOUNS_FILE)
     except OSError:
         pass
     try:
-        os.unlink(NOUNS_REVERSE)
+        os.unlink(anki.NOUNS_REVERSE)
     except OSError:
         pass
     for word in words:
         output_word_defs(word)
-
-
-def article_from_gender(gender):
-    if gender == 'feminine':
-        return u'ἡ'
-    if gender == 'masculine':
-        return u'ὁ'
-    if gender == 'neuter':
-        return u'τὸ'
 
 
 def output_word_defs(word):
@@ -360,7 +279,7 @@ def output_word_defs(word):
             ss += "<br>".join(answers)
 
             if not ignore_cases(article, case, decl):
-                with open(NOUNS_REVERSE, 'a') as ff:
+                with open(anki.NOUNS_REVERSE, 'a') as ff:
                     ff.write(ss.encode('utf-8') + "\n")
 
     # forward
@@ -372,7 +291,7 @@ def output_word_defs(word):
         for article in articles:
             ss += article + ' ' + form + '<br>'
         ss += '<br>' + dict_form
-        with open(NOUNS_FILE, 'a') as ff:
+        with open(anki.NOUNS_FILE, 'a') as ff:
             ff.write(ss.encode('utf-8') + "\n")
 
 
@@ -428,11 +347,11 @@ def article_for_word(word, case, decl):
         raise Exception('Could not find article')
 
     if gender == 'm/f':
-        first = ARTICLE_MAP['m'][case][decl]
-        second = ARTICLE_MAP['f'][case][decl]
+        first = anki.ARTICLE_MAP['m'][case][decl]
+        second = anki.ARTICLE_MAP['f'][case][decl]
         return first + '/' + second
 
-    return ARTICLE_MAP[gender][case][decl]
+    return anki.ARTICLE_MAP[gender][case][decl]
 
 
 def clean_form(form):
@@ -451,11 +370,6 @@ def parse_args():
     parser.add_argument('--show')
     parser.add_argument('--anki', action='store_true')
     return parser.parse_args()
-
-
-def get_html_from_wiktionary(noun):
-    print "Called for " + unicode(noun, 'utf-8')
-    return requests.get(WIKTIONARY + noun.split(' ')[-1]).content
 
 
 def get_noun_forms(html):
