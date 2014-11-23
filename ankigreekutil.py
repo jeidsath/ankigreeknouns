@@ -78,7 +78,7 @@ ARTICLE_MAP = {'m': {'Singular': {'Nominative': u'ὁ',
 
 
 def get_html_from_wiktionary(word):
-    print "Called for " + unicode(word, 'utf-8')
+    print ("Called for " + unicode(word, 'utf-8')).encode('utf-8')
     return requests.get(WIKTIONARY + word.split(' ')[-1]).content
 
 
