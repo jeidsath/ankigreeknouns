@@ -435,6 +435,9 @@ def parse_args():
     parser.add_argument('--get')
     parser.add_argument('--show')
     parser.add_argument('--anki', action='store_true')
+    parser.add_argument('--showtenses', action='store_true')
+    parser.add_argument('--tenses',
+                        help="comma-separated list of tenses to study")
     return parser.parse_args()
 
 
@@ -466,8 +469,16 @@ def make_participle_answer(voice, mood, tense, number, case, gender):
     return article + u'<br>' + unicode(answer, 'utf-8')
 
 
-def make_cards(word):
+def make_cards(word, tenses):
     cards = []
+
+    if tenses:
+        mytenses = tenses.split(',')
+    else:
+        mytenses = TENSE
+    for tense in mytenses:
+        if tense not in TENSE:
+            raise Exception('Bad tense: ' + tense)
 
     # Verify
     for vv in word.keys():
@@ -483,7 +494,7 @@ def make_cards(word):
     for vv in VOICE:
         for mm in word[vv].keys():
             if mm == 'participle':
-                for tt in TENSE:
+                for tt in mytenses:
                     if not word[vv][mm].get(tt):
                         continue
                     for nn in NUMBER:
@@ -502,14 +513,14 @@ def make_cards(word):
                                                       answer.encode('utf-8')])
                 continue
             if mm == 'infinitive':
-                for tt in TENSE:
+                for tt in mytenses:
                     if word[vv][mm].get(tt):
                         for form in word[vv][mm][tt].split(' / '):
                             form = word[vv][mm][tt]
                             cards.append([form, make_answer(vv, mm, tt)])
                 continue
             # for normal moods
-            for tt in TENSE:
+            for tt in mytenses:
                 if not word[vv][mm].get(tt):
                     continue
                 for pp in PERSON:
@@ -520,10 +531,10 @@ def make_cards(word):
     return cards
 
 
-def output_cards():
+def output_cards(tenses=None):
     cards = []
     for word in WORDS:
-        cards.extend(make_cards(SHELF[word]))
+        cards.extend(make_cards(SHELF[word], tenses))
     card_mm = {}
     card_rr = {}
     for card in cards:
@@ -551,15 +562,16 @@ def output_cards():
             ff.write(kk + '; ' + '<br><br>'.join(vv) + "\n")
 
 
-
 def main():
     args = parse_args()
+    if args.showtenses:
+        print TENSE
     if args.get:
         prepare_shelf()
     if args.show:
         anki.show_forms(args.show, SHELF)
     if args.anki:
-        output_cards()
+        output_cards(args.tenses)
 
 
 if __name__ == '__main__':
