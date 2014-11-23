@@ -8,9 +8,10 @@ import ankigreekutil as anki
 
 
 WIKTIONARY = 'http://en.wiktionary.org/wiki/'
+WORDS = ['λύω']
 REPRESENTATIONS = {'imperfect': '----    |',
                    'present': '--|--',
-                   'future': '|    -\n|    -----',
+                   'future': '|    -<br>|    -----',
                    'perfect': '----|',
                    'pluperfect': '----X    |',
                    'aorist': '-   |',
@@ -19,29 +20,32 @@ REPRESENTATIONS = {'imperfect': '----    |',
                    'imperative': '✋ ',
                    'subjunctive': '👇 ',
                    'optative': '👻 ',
-                   'first singular': '(👤 )',
-                   'second singular': '→ 👤 ',
-                   'third singular': '👤 ',
-                   'first dual': '(👬 )',
-                   'second dual': '→ 👬 ',
-                   'third dual': '👬 ',
-                   'first plural': '(👪 )',
-                   'second plural': '→ 👪 ',
-                   'third plural': '👪 ',
+                   '1st': '(👤 )',
+                   '2nd': '→ 👤 ',
+                   '3rd': '👤 ',
+                   '2nd dual': '→ 👬 ',
+                   '3rd dual': '👬 ',
+                   '1st plural': '(👪 )',
+                   '2nd plural': '→ 👪 ',
+                   '3rd plural': '👪 ',
                    'infinitive': '∞',
                    'active': '🏃 ',
                    'middle': '🔁 ',
                    'passive': '☔️ '
                    }
 VOICE = ['active', 'middle', 'passive']
-MOOD = ['indicative', 'subjunctive', 'optative', 'imperative']
-TENSE = ['present', 'imperfect', 'future', '1st aorist', '2nd aorist',
-         '1st perfect', '2nd perfect', '1st pluperfect', '2nd pluperfect',
-         'future perfect']
+MOOD = ['indicative', 'subjunctive', 'optative', 'imperative', 'infinitive',
+        'participle']
+TENSE = ['present', 'imperfect', 'future', '1st future', '1st aorist',
+         '2nd aorist', 'perfect', '1st perfect', '2nd perfect', 'pluperfect',
+         '1st pluperfect', '2nd pluperfect', 'future perfect']
 PERSON = ['1st', '2nd', '3rd', '2nd dual', '3rd dual', '1st plural',
           '2nd plural', '3rd plural']
 GENDER = ['m', 'f', 'n']
-CASE = ['nominative', 'vocative', 'genitive', 'dative', 'accusative']
+CASE = ['Nominative', 'Vocative', 'Genitive', 'Dative', 'Accusative']
+NUMBER = ['Singular', 'Dual', 'Plural']
+VERBFILE = 'verbs.txt'
+REVERSEFILE = 'reverse_verbs.txt'
 
 
 def set_verb_form(verb, voice, mood, tense, forms):
@@ -51,32 +55,35 @@ def set_verb_form(verb, voice, mood, tense, forms):
         verb[voice][mood] = {}
     if not verb[voice][mood].get(tense):
         verb[voice][mood][tense] = {}
+    else:
+        raise Exception('Redefinition')
 
     if mood == 'infinitive':
         verb[voice][mood][tense] = forms
         return
 
     if mood == 'participle':
-        part_cases = {'singular': ['nominative', 'genitive', 'dative',
-                                   'accusative', 'vocative'],
-                      'dual':     ['nominative', 'genitive'],
-                      'plural':   ['nominative', 'genitive', 'dative',
-                                   'accusative']}
+        part_cases = {'Singular': ['Nominative', 'Genitive', 'Dative',
+                                   'Accusative', 'Vocative'],
+                      'Dual':     ['Nominative', 'Genitive'],
+                      'Plural':   ['Nominative', 'Genitive', 'Dative',
+                                   'Accusative']}
 
-        for number in ['singular', 'dual', 'plural']:
+        for number in NUMBER:
+            verb[voice][mood][tense][number] = {}
             for ii, cc in enumerate(part_cases[number]):
-                verb[voice][mood][tense][cc] = {}
+                verb[voice][mood][tense][number][cc] = {}
                 for jj, gg in enumerate(GENDER):
-                    verb[voice][mood][tense][cc][gg] = forms[ii][jj]
-                if number == 'dual':
-                    nom = verb[voice][mood][tense]['nominative']
-                    verb[voice][mood][tense]['vocative'] = nom
-                    verb[voice][mood][tense]['accusative'] = nom
-                    gen = verb[voice][mood][tense]['genitive']
-                    verb[voice][mood][tense]['dative'] = gen
-                if number == 'plural':
-                    nom = verb[voice][mood][tense]['nominative']
-                    verb[voice][mood][tense]['vocative'] = nom
+                    verb[voice][mood][tense][number][cc][gg] = forms[ii][jj]
+                if number == 'Dual':
+                    nom = verb[voice][mood][tense][number]['Nominative']
+                    verb[voice][mood][tense][number]['Vocative'] = nom
+                    verb[voice][mood][tense][number]['Accusative'] = nom
+                    gen = verb[voice][mood][tense][number]['Genitive']
+                    verb[voice][mood][tense][number]['Dative'] = gen
+                if number == 'Plural':
+                    nom = verb[voice][mood][tense][number]['Nominative']
+                    verb[voice][mood][tense][number]['Vocative'] = nom
         return
 
     for ii in range(0, len(PERSON)):
@@ -172,11 +179,11 @@ def prepare_shelf():
                    'λελυκότες εἴητε / λελυκότες εἶτε / λελύκοιτε',
                    'λελυκότες εἴησαν / λελυκότες εἶεν / λελύκοιεν'])
 
-    set_verb_form(luo, 'active', 'aorist', '1st aorist',
+    set_verb_form(luo, 'active', 'imperative', '1st aorist',
                   ['', 'λῦσον', 'λῡσάτω', 'λύ̄σατον', 'λῡσάτων', '',
                    'λύ̄σατε', 'λῡσάντων'])
 
-    set_verb_form(luo, 'active', 'aorist', '1st perfect',
+    set_verb_form(luo, 'active', 'imperative', '1st perfect',
                   ['', 'λελυκὼς ἴσθι / λέλυκε', 'λελυκὼς ἔστω / λελυκέτω',
                    'λελυκότε ἔστον / λελύκετον',
                    'λελυκότε ἔστων / λελυκέτων', '',
@@ -198,7 +205,7 @@ def prepare_shelf():
                    ['λύ̄σᾱσι(ν)', 'λῡσά̄σαις', 'λύ̄σᾱσι(ν)'],
                    ['λύ̄σαντας', 'λῡσά̄σας', 'λύ̄σαντα']])
 
-    set_verb_form(luo, 'active', 'participle', '1st aorist',
+    set_verb_form(luo, 'active', 'participle', '1st perfect',
                   [['λελυκώς', 'λελυκυῖα', 'λελυκός'],
                    ['λελυκότος', 'λελυκυίᾱς', 'λελυκότος'],
                    ['λελυκότι', 'λελυκυίᾳ', 'λελυκότι'],
@@ -420,9 +427,7 @@ def prepare_shelf():
                    ['λυθησομένοις', 'λυθησομέναις', 'λυθησομένοις'],
                    ['λυθησομένους', 'λυθησομένᾱς', 'λυθησόμενα']])
 
-
-class VerbList(object):
-    pass
+    SHELF['λύω'] = luo
 
 
 def parse_args():
@@ -433,24 +438,131 @@ def parse_args():
     return parser.parse_args()
 
 
-def download_and_save(word):
-    html = anki.get_html_from_wiktionary(word)
-    # with open('html.txt', 'w') as ff:
-    #     ff.write(html.encode('utf-8'))
-    print html
+def make_answer(voice, mood, tense, person=None):
+    mm = {'voice': voice,
+          'mood': mood,
+          'tense': tense,
+          'person': person}
+    answer = ''
+    for ee in ['person', 'tense', 'mood', 'voice']:
+        if mm[ee] == 'participle':
+            continue
+        if mm[ee] is None:
+            continue
+        elem = mm[ee]
+        parts = mm[ee].split(' ')
+        if ee == 'tense':
+            if len(parts) > 1 and parts[0] in ['1st', '2nd']:
+                elem = ' '.join(parts[1:])
+        if answer != '':
+            answer += '<br>'
+        answer += REPRESENTATIONS[elem]
+    return answer
+
+
+def make_participle_answer(voice, mood, tense, number, case, gender):
+    answer = make_answer(voice, mood, tense)
+    article = anki.ARTICLE_MAP[gender][number][case]
+    return article + u'<br>' + unicode(answer, 'utf-8')
+
+
+def make_cards(word):
+    cards = []
+
+    # Verify
+    for vv in word.keys():
+        if vv not in VOICE:
+            raise Exception('bad voice: ' + vv)
+        for mm in word[vv].keys():
+            if mm not in MOOD:
+                raise Exception('bad mood: ' + mm)
+            for tt in word[vv][mm]:
+                if tt not in TENSE:
+                    raise Exception('bad tense: ' + tt)
+
+    for vv in VOICE:
+        for mm in word[vv].keys():
+            if mm == 'participle':
+                for tt in TENSE:
+                    if not word[vv][mm].get(tt):
+                        continue
+                    for nn in NUMBER:
+                        for cc in CASE:
+                            for gg in GENDER:
+                                words = word[vv][mm][tt][cc][gg].split(' / ')
+                                for form in words:
+                                    if form:
+                                        answer = make_participle_answer(vv,
+                                                                        mm,
+                                                                        tt,
+                                                                        nn,
+                                                                        cc,
+                                                                        gg)
+                                        cards.append([form,
+                                                      answer.encode('utf-8')])
+                continue
+            if mm == 'infinitive':
+                for tt in TENSE:
+                    if word[vv][mm].get(tt):
+                        for form in word[vv][mm][tt].split(' / '):
+                            form = word[vv][mm][tt]
+                            cards.append([form, make_answer(vv, mm, tt)])
+                continue
+            # for normal moods
+            for tt in TENSE:
+                if not word[vv][mm].get(tt):
+                    continue
+                for pp in PERSON:
+                    for form in word[vv][mm][tt][pp].split(' / '):
+                        if not form:
+                            continue
+                        cards.append([form, make_answer(vv, mm, tt, pp)])
+    return cards
+
+
+def output_cards():
+    cards = []
+    for word in WORDS:
+        cards.extend(make_cards(SHELF[word]))
+    card_mm = {}
+    card_rr = {}
+    for card in cards:
+        if not card_mm.get(card[0]):
+            card_mm[card[0]] = []
+        if not card_rr.get(card[1]):
+            card_rr[card[1]] = []
+        unique = True
+        for cc in card_mm[card[0]]:
+            if card[1] == cc:
+                unique = False
+        if unique:
+            card_mm[card[0]].append(card[1])
+        unique = True
+        for cc in card_rr[card[1]]:
+            if card[0] == cc:
+                unique = False
+        if unique:
+            card_rr[card[1]].append(card[0])
+    with open(VERBFILE, 'w') as ff:
+        for kk, vv in card_mm.iteritems():
+            ff.write(kk + '; ' + '<br><br>'.join(vv) + "\n")
+    with open(REVERSEFILE, 'w') as ff:
+        for kk, vv in card_rr.iteritems():
+            ff.write(kk + '; ' + '<br><br>'.join(vv) + "\n")
+
 
 
 def main():
     args = parse_args()
     if args.get:
-        download_and_save(args.get)
+        prepare_shelf()
     if args.show:
         anki.show_forms(args.show, SHELF)
+    if args.anki:
+        output_cards()
+
 
 if __name__ == '__main__':
-    prepare_shelf()
-    import sys
-    sys.exit()
     global SHELF
     SHELF = shelve.open('verbs.shelf')
     main()
