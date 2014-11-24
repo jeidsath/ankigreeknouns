@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import argparse
+import re
 import shelve
 
 import ankigreekutil as anki
@@ -474,6 +475,19 @@ def make_participle_answer(voice, mood, tense, number, case, gender):
     return article + u'<br>' + unicode(answer, 'utf-8')
 
 
+def all_words(word):
+    output = []
+    words = word.split(' / ')
+    for word in words:
+        if re.match(r'^.*\(ν\)$', word):
+            output.append(word[0:-4])
+            output.append(word[0:-4] + 'ν')
+            continue
+        if word:
+            output.append(word)
+    return output
+
+
 def make_cards(word, tenses):
     cards = []
 
@@ -505,7 +519,7 @@ def make_cards(word, tenses):
                     for nn in NUMBER:
                         for cc in CASE:
                             for gg in GENDER:
-                                words = word[vv][mm][tt][nn][cc][gg].split(' / ')
+                                words = all_words(word[vv][mm][tt][nn][cc][gg])
                                 for form in words:
                                     if form:
                                         answer = make_participle_answer(vv,
@@ -520,7 +534,7 @@ def make_cards(word, tenses):
             if mm == 'infinitive':
                 for tt in mytenses:
                     if word[vv][mm].get(tt):
-                        for form in word[vv][mm][tt].split(' / '):
+                        for form in all_words(word[vv][mm][tt]):
                             form = word[vv][mm][tt]
                             cards.append([form, make_answer(vv, mm, tt)])
                 continue
@@ -529,9 +543,7 @@ def make_cards(word, tenses):
                 if not word[vv][mm].get(tt):
                     continue
                 for pp in PERSON:
-                    for form in word[vv][mm][tt][pp].split(' / '):
-                        if not form:
-                            continue
+                    for form in all_words(word[vv][mm][tt][pp]):
                         cards.append([form, make_answer(vv, mm, tt, pp)])
     return cards
 
