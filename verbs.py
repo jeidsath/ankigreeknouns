@@ -23,9 +23,9 @@ REPRESENTATIONS = {'imperfect': '(παρατατικός)<br>----    |',
                    'optative': '(εὐτικὴ ἔγκλισις)<br>εἰ',
                    '1st': '(πρῶτον πρόσωπον)<br>ἐγώ',
                    '2nd': '(δεύτερον πρόσωπον)<br>σύ',
-                   '3rd': '(τρίτον πρόσωπον)<br>ἐκείνω',
+                   '3rd': '(τρίτον πρόσωπον)<br>ἐκεῖνος',
                    '2nd dual': '(δεύτερον δυϊκὸν πρόσωπον)<br>σφώ',
-                   '3rd dual': '(τρίτον δυϊκὸν πρόσωπον)',
+                   '3rd dual': '(τρίτον δυϊκὸν πρόσωπον)<br>ἐκείνω',
                    '1st plural': 'ἡμεῖς',
                    '2nd plural': 'ὑμεῖς',
                    '3rd plural': 'σφεῖς',
@@ -45,8 +45,8 @@ PERSON = ['1st', '2nd', '3rd', '2nd dual', '3rd dual', '1st plural',
 GENDER = ['m', 'f', 'n']
 CASE = ['Nominative', 'Vocative', 'Genitive', 'Dative', 'Accusative']
 NUMBER = ['Singular', 'Dual', 'Plural']
-VERBFILE = 'verbs.txt'
-REVERSEFILE = 'reverse_verbs.txt'
+VERBFILE = 'verbs'
+REVERSEFILE = 'reverse_verbs'
 
 
 def set_verb_form(verb, voice, mood, tense, forms):
@@ -571,10 +571,15 @@ def output_cards(tenses=None):
                 unique = False
         if unique:
             card_rr[card[1]].append(card[0])
-    with open(VERBFILE, 'w') as ff:
+    verbfile = VERBFILE + '.txt'
+    reversefile = REVERSEFILE + '.txt'
+    if tenses:
+        verbfile = VERBFILE + '.' + tenses + '.txt'
+        reversefile = REVERSEFILE + '.' + tenses + '.txt'
+    with open(verbfile, 'w') as ff:
         for kk, vv in card_mm.iteritems():
             ff.write(kk + '; ' + '<br><br>'.join(vv) + "\n")
-    with open(REVERSEFILE, 'w') as ff:
+    with open(reversefile, 'w') as ff:
         for kk, vv in card_rr.iteritems():
             ff.write(kk + '; ' + '<br><br>'.join(vv) + "\n")
 
