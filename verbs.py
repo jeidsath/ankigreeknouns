@@ -75,15 +75,15 @@ def set_verb_form(verb, voice, mood, tense, forms):
                 verb[voice][mood][tense][number][cc] = {}
                 for jj, gg in enumerate(GENDER):
                     verb[voice][mood][tense][number][cc][gg] = forms[ii][jj]
-                if number == 'Dual':
-                    nom = verb[voice][mood][tense][number]['Nominative']
-                    verb[voice][mood][tense][number]['Vocative'] = nom
-                    verb[voice][mood][tense][number]['Accusative'] = nom
-                    gen = verb[voice][mood][tense][number]['Genitive']
-                    verb[voice][mood][tense][number]['Dative'] = gen
-                if number == 'Plural':
-                    nom = verb[voice][mood][tense][number]['Nominative']
-                    verb[voice][mood][tense][number]['Vocative'] = nom
+            if number == 'Dual':
+                nom = verb[voice][mood][tense][number]['Nominative']
+                verb[voice][mood][tense][number]['Vocative'] = nom
+                verb[voice][mood][tense][number]['Accusative'] = nom
+                gen = verb[voice][mood][tense][number]['Genitive']
+                verb[voice][mood][tense][number]['Dative'] = gen
+            if number == 'Plural':
+                nom = verb[voice][mood][tense][number]['Nominative']
+                verb[voice][mood][tense][number]['Vocative'] = nom
         return
 
     for ii in range(0, len(PERSON)):
@@ -500,7 +500,7 @@ def make_cards(word, tenses):
                     for nn in NUMBER:
                         for cc in CASE:
                             for gg in GENDER:
-                                words = word[vv][mm][tt][cc][gg].split(' / ')
+                                words = word[vv][mm][tt][nn][cc][gg].split(' / ')
                                 for form in words:
                                     if form:
                                         answer = make_participle_answer(vv,
