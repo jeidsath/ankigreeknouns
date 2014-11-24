@@ -72,9 +72,14 @@ def set_verb_form(verb, voice, mood, tense, forms):
         for number in NUMBER:
             verb[voice][mood][tense][number] = {}
             for ii, cc in enumerate(part_cases[number]):
+                iiadj = ii
+                if number == 'Dual' or number == 'Plural':
+                    iiadj += len(part_cases['Singular'])
+                if number == 'Plural':
+                    iiadj += len(part_cases['Dual'])
                 verb[voice][mood][tense][number][cc] = {}
                 for jj, gg in enumerate(GENDER):
-                    verb[voice][mood][tense][number][cc][gg] = forms[ii][jj]
+                    verb[voice][mood][tense][number][cc][gg] = forms[iiadj][jj]
             if number == 'Dual':
                 nom = verb[voice][mood][tense][number]['Nominative']
                 verb[voice][mood][tense][number]['Vocative'] = nom
