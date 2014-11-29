@@ -103,7 +103,7 @@ def prepare_shelf():
         }
     SHELF['ἡ μήτηρ'] = {
         'Singular': {'Nominative': u'μήτηρ',
-                     'Genitive': u'μήτρός',
+                     'Genitive': u'μητρός',
                      'Dative': u'μητρί',
                      'Accusative': u'μητέρα',
                      'Vocative': u'μῆτερ',
