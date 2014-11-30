@@ -97,7 +97,7 @@ def prepare_shelf():
         'Plural':   {'Nominative': u'(περίπλοοι) περίπλοι',
                      'Genitive': u'(περιπλόων) περίπλων',
                      'Dative': u'(περιπλόοις) περίπλοις',
-                     'Accusative': u'(περιπλόους) περίπλοις',
+                     'Accusative': u'(περιπλόους) περίπλους',
                      'Vocative': u'(περίπλοοι) περίπλοι',
                      }
         }
@@ -223,6 +223,26 @@ def prepare_shelf():
                      'Dative': u'γραυσί(ν)',
                      'Accusative': u'γραῦς',
                      'Vocative': u'γρᾶες',
+                     }
+        }
+    SHELF['ὁ βασιλεύς'] = {
+        'Singular': {'Nominative': u'βᾰσῐλεύς',
+                     'Genitive': u'βᾰσῐλέως',
+                     'Dative': u'βᾰσῐλεῖ',
+                     'Accusative': u'βᾰσῐλέᾱ',
+                     'Vocative': u'βᾰσῐλεῦ',
+                     },
+        'Dual':     {'Nominative': u'βᾰσῐλῆ',
+                     'Genitive': u'βᾰσῐλέοιν',
+                     'Dative': u'βᾰσῐλέοιν',
+                     'Accusative': u'βᾰσῐλῆ',
+                     'Vocative': u'βᾰσῐλῆ',
+                     },
+        'Plural':   {'Nominative': u'βᾰσῐλῆς / βᾰσῐλεῖς',
+                     'Genitive': u'βᾰσῐλέων',
+                     'Dative': u'βᾰσῐλεῦσῐ(ν)',
+                     'Accusative': u'βᾰσῐλέᾱς',
+                     'Vocative': u'βᾰσῐλῆς / βᾰσῐλεῖς',
                      }
         }
 
