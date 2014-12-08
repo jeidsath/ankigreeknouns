@@ -115,7 +115,7 @@ def prepare_shelf():
                      'Vocative': u'μητέρε',
                      },
         'Plural':   {'Nominative': u'μητέρες',
-                     'Genitive': u'μητέραν',
+                     'Genitive': u'μητέρων',
                      'Dative': u'μητράσι(ν)',
                      'Accusative': u'μητέρας',
                      'Vocative': u'μητέρες',
